@@ -1,7 +1,28 @@
+
 #left {
     float: left;
+    vertical-align: middle;
 }
 #right {
     float:right;
 }
 
+.log-out-button {
+    float:right;
+    margin: 0;
+    /* position: absolute; */
+    top: 50%;
+    transform: translate(0, 50%);
+}
+
+.header-row {
+    position: relative;
+}
+
+.header-image {
+    background-image: url("header_logo.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
